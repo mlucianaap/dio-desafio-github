@@ -1,0 +1,17 @@
+# Git
+
+- Inicializar repositório: git init
+- Verificar status do repositório: git status
+- Para acompanhar as modificações dos arquivos: git add . ou git add <nome do arquivo>
+- Para salvar as mudanças: git commit -m "Mensagem para identificar o commit" 
+- Para listar todos os commits: git log
+- Para enviar as alteções para o servidor: git push origin main
+- Para trazer modificações do repositório presentes no servidor: git pull origin main
+- Para clonar um repositório do servidor: git clone <URL do repositório>
+- Para criar uma branch: git branch <nome da branch>
+- Para usar uma branch: git checkout <nome da branch>
+- Para deletar uma branch: git branch -d <nome da branch>
+- Para listar todas as branches: git branch
+- Para fazer um merge: git merge <nome da branch> 
+
+Obs: Para realizar o merge é necessário estar na branch main. 
